@@ -19,12 +19,12 @@ const services: Service[] = [
   {
     image: freightImage,
     title: "Freight Forwarding",
-    description: "Efficient and reliable global freight solutions.",
+    description: "Beyond Border Merchants simplifies global shipping with expert freight forwarding solutions. We handle every step—customs clearance, documentation, and logistics—so your cargo moves seamlessly across borders with advanced tracking systems. Partner with us and move beyond limits!",
   },
   {
     image: warehouseImage,
     title: "Warehousing",
-    description: "Secure and scalable storage solutions.",
+    description: "Whether you need short-term storage or a long-term logistics hub, we offer flexible, scalable solutions tailored to your needs. With a dedicated team, we ensure your goods are always accounted for and ready for dispatch. Store smarter, ship faster—partner with Beyond Border Merchants for warehousing that works for you!",
   },
   {
     image: airfreightImage,
