@@ -23,7 +23,8 @@ module.exports = {
         green1: '#1F4045',
         cream: '#EDE5D3',
         turquoise: '#7F9492', // Add custom color here
-        blue: '#1E74BC'
+        blue: '#1E74BC',
+        beige: '#F5F5DC'
       },
       screens: {
         '3xl': '1680px',

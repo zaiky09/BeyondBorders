@@ -46,8 +46,8 @@ const Navbar = () => {
             </a>
           ))}
           <Link
-            href="/get-a-quote"
-            className="regular-16 bg-black text-turquoise px-6 py-2 rounded-full flexCenter cursor-pointer transition-all hover:bg-turquoise hover:text-black"
+            href="#contact"
+            className="regular-16 bg-black text-beige px-6 py-2 rounded-full flexCenter cursor-pointer transition-all hover:bg-turquoise hover:text-beige"
           >
             Get a Quote
           </Link>
@@ -68,17 +68,11 @@ const Navbar = () => {
             href={link.href}
             key={link.key}
             onClick={(e) => scrollToSection(e, link.href)}
-            className="regular-16 text-gray-50 flexCenter cursor-pointer transition-all hover:font-bold"
+            className="regular-16 text-black flexCenter cursor-pointer transition-all hover:font-bold"
           >
             {link.label}
           </a>
         ))}
-        <Link
-          href="/get-a-quote"
-          className="regular-16 bg-blue-600 text-white px-6 py-2 rounded-full flexCenter cursor-pointer transition-all hover:bg-blue-700 hover:scale-105"
-        >
-          Get a Quote
-        </Link>
       </ul>
     </nav>
   );

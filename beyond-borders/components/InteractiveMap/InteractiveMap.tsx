@@ -31,7 +31,7 @@ const InteractiveMap = () => {
   return (
     <section className="py-16 bg-gray-100">
       <div className="max-container padding-container">
-        <h2 className="text-4xl font-bold text-center mb-12">Our Global Network</h2>
+        {/* <h2 className="text-4xl font-bold text-center mb-12">Our Global Network</h2> */}
         <div className="h-[500px] w-full rounded-lg overflow-hidden shadow-lg">
           <MapContainer center={defaultCenter} zoom={5} scrollWheelZoom={false} className="h-full w-full">
             <TileLayer

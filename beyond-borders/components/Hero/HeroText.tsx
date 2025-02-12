@@ -11,7 +11,7 @@ export const HeroText = () => {
       </h1>
 
       {/* Subheading */}
-      <p className="text-lg sm:text-xl md:text-2xl text-white leading-relaxed mb-6">
+      <p className="text-lg sm:text-2xl md:text-3xl text-beige leading-relaxed mb-6">
       For Your Trucking Solutions.
       </p>
 

@@ -29,9 +29,9 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-100" id="services">
+    <section className="py-16 bg-gradient-to-b from-beige to-white " id="services">
       <div className="max-container padding-container">
-        <h2 className="text-4xl font-bold text-center mb-12">We Offer:</h2>
+        {/* <h2 className="text-4xl font-bold text-center mb-12">We Offer:</h2> */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
@@ -50,12 +50,12 @@ const Services = () => {
               </div>
 
               {/* Content */}
-              <h3 className="text-2xl font-bold mt-6 mb-4 group-hover:text-white transition-all duration-300">
+              <h3 className="text-3xl font-bold mt-6 mb-4 group-hover:text-beige transition-all duration-300">
                 {service.title}
               </h3>
-              <p className="text-white mb-6 transition-opacity duration-300 group-hover:opacity-75">
+              {/* <p className="text-white mb-6 transition-opacity duration-300 group-hover:opacity-75">
                 {service.description}
-              </p>
+              </p> */}
 
               {/* Button with Hover Effect */}
               <Link
@@ -69,6 +69,8 @@ const Services = () => {
           ))}
         </div>
       </div>
+       {/* Curved SVG Transition */}
+        
     </section>
   );
 };

@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 
 const destinations = [
-    "East Africa",
+  "East Africa",
   "Kisumu, Kenya",
   "Masaai Mara, Kenya",
   "Mombasa, Kenya",
@@ -42,8 +42,8 @@ const Destinations = () => {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-center h-40 bg-turquoise text-white text-3xl font-bold p-6 rounded-lg shadow-lg space-y-4">
-      <p className="text-center text-lg md:text-xl font-medium">
+    <div className="flex flex-col justify-center items-center h-40 bg-beige text-black text-5xl font-bold p-6 rounded-lg shadow-lg space-y-4">
+      <p className="text-center text-lg md:text-3xl font-medium">
         We connect businesses to opportunities—anywhere, everywhere. Your cargo, our commitment.
       </p>
       <div className="text-center">
