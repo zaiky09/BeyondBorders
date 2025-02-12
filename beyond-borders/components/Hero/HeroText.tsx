@@ -14,16 +14,6 @@ export const HeroText = () => {
       <p className="text-lg sm:text-2xl md:text-3xl text-beige leading-relaxed mb-6">
       For Your Trucking Solutions.
       </p>
-
-      {/* Call-to-Action Button (Uncomment when ready) */}
-      {/* <Link href="#contact">
-        <Button
-          type="button"
-          title="Get a Quote"
-          variant="btn_light_lime"
-          width="w-auto"
-        />
-      </Link> */}
     </div>
   );
 };

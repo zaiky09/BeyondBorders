@@ -1,7 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-
-// Import images (Replace these with actual image paths in your project)
 import freightImage from "../../public/Images/freight.jpg";
 import warehouseImage from "../../public/Images/warehouse.jpg";
 import airfreightImage from "../../public/Images/airfreight.jpg";
@@ -53,11 +51,6 @@ const Services = () => {
               <h3 className="text-3xl font-bold mt-6 mb-4 group-hover:text-beige transition-all duration-300">
                 {service.title}
               </h3>
-              {/* <p className="text-white mb-6 transition-opacity duration-300 group-hover:opacity-75">
-                {service.description}
-              </p> */}
-
-              {/* Button with Hover Effect */}
               <Link
                 href={service.link}
                 className="inline-block text-black font-semibold border-b-2 border-transparent transition-all duration-300 

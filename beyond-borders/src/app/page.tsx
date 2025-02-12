@@ -1,4 +1,3 @@
-// import Gallery from "../../components/Gallery/Gallery";
 import { Hero } from "../../components/Hero/Hero";
 import Destinations from "../../components/Destinations/Destinations";
 import Services from "../../components/Services/Services";
@@ -7,10 +6,7 @@ import AboutUs from "../../components/AboutUs/About";
 import Contact from "../../components/Contact/Contact";
 import WhyUs from "../../components/WhyUs/WhyUs";
 import Roadmap from "../../components/Roadmap/Roadmap";
-// import Services from "../../components/Services/Services";
-// import Gallery from "@/components/Gallery/Gallery";
-// import HowWeWork from "@/components/HowWeWork/HowWeWork";
-// import PricingCards from "@/components/PricingCards/PricingCards";
+
 
 export default function Home() {
   return (
@@ -22,12 +18,7 @@ export default function Home() {
       <Roadmap />
       <WhyUs />
       {/* <InteractiveMap /> */}
-      
-      <Contact />
-      {/* <Gallery /> */}
-      
-      
-      
+      <Contact />  
     </>
   );
 }
