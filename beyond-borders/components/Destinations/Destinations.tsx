@@ -10,7 +10,7 @@ const destinations = [
   "Mwanza, Tanzania",
   "Dar es Salaam, Tanzania",
   "Kigali, Rwanda",
-  "Kinshasa, Democratic Republic of Congo",
+  "Kinshasa, DRC",
   "Kampala, Uganda",
   "Khartoum, Sudan",
   "Juba, Sudan",
